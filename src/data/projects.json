@@ -1,11 +1,11 @@
 [
   {
-    "title": "Project A",
+    "title": "My Portfolio using React",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "This is a project made to display my portfolio by using React",
+    "skills": ["React", "Dotnet"],
+    "demo": "https://github.com/Rohith1455/MyPortfolio-reactjs/tree/main",
+    "source": "https://github.com/Rohith1455/MyPortfolio-reactjs/tree/main"
   },
   {
     "title": "Project B",
