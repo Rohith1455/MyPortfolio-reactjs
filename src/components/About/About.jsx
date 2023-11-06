@@ -34,13 +34,21 @@ export const About = () => {
               </p>
             </div>
           </li>
-          <li className={styles.aboutItem}>
+          <li className={styles.aboutItemSkills}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>Skills</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                <ul className={styles.ulSkills}>
+                  <li className={styles.aboutList}>DotNet MVC</li>
+                  <li className={styles.aboutList}>ASP .Net Web APIs</li>
+                  <li className={styles.aboutList}>Javascript</li>
+                  <li className={styles.aboutList}>React</li>
+                  <li className={styles.aboutList}>C|C++|C# </li>
+                  <li className={styles.aboutList}>Git</li>
+                  <li className={styles.aboutList}>Bitbucket </li>
+                  <li className={styles.aboutList}>Jira </li>
+                  </ul>
               </p>
             </div>
           </li>

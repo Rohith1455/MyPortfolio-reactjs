@@ -90,3 +90,67 @@
     padding-right: 0;
   }
 }
+
+
+.ulSkills {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ulSkills li {
+  width: 48%;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: none; 
+}
+
+.aboutItemSkills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 25px;
+  
+}
+
+.aboutItemSkills h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.aboutItemSkills p {
+  font-size: 25px;
+}
+
+.aboutItemSkills {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.aboutList{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 25px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+  }
+
+  .aboutList:hover {
+    background-size: 100% 100%;
+  }
