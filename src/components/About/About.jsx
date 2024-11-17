@@ -9,7 +9,7 @@ export const About = () => {
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <img
-          src={getImageUrl("about/aboutImage.png")}
+          src={getImageUrl("about/aboutpic.png")}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />
@@ -40,14 +40,14 @@ export const About = () => {
               <h3>Skills</h3>
               <p>
                 <ul className={styles.ulSkills}>
-                  <li className={styles.aboutList}>DotNet MVC</li>
-                  <li className={styles.aboutList}>ASP .Net Web APIs</li>
-                  <li className={styles.aboutList}>Javascript</li>
-                  <li className={styles.aboutList}>React</li>
-                  <li className={styles.aboutList}>C|C++|C# </li>
-                  <li className={styles.aboutList}>Git</li>
-                  <li className={styles.aboutList}>Bitbucket </li>
-                  <li className={styles.aboutList}>Jira </li>
+                  <li>DotNet MVC</li>
+                  <li>ASP .Net Web APIs</li>
+                  <li>Javascript</li>
+                  <li>React</li>
+                  <li>C|C++|C# </li>
+                  <li>Git</li>
+                  <li>Bitbucket </li>
+                  <li>Jira </li>
                   </ul>
               </p>
             </div>

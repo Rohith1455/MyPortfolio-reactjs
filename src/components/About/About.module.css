@@ -134,7 +134,7 @@
   padding-right: 0;
 }
 
-.aboutList{
+.ulSkills li{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -151,6 +151,6 @@
   transition: 0.4s;
   }
 
-  .aboutList:hover {
+  .ulSkills li:hover {
     background-size: 100% 100%;
   }
